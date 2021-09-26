@@ -1,0 +1,23 @@
+.country {
+    height: auto;
+    width: 100%;
+    padding: 12.5px 14px !important;
+    background-color: white;
+    border: 2px solid #ECECEC ;
+    margin: 10px auto;
+    color: #000;
+}
+
+.states {
+    height: auto;
+    width: 100%;
+    padding: 12.5px 14px !important;
+    background-color: white;
+    border: 2px solid #ECECEC ;
+    margin: 10px auto; 
+}
+
+.label {
+    margin: 10px auto !important;
+    color : rgba(10, 9, 9, 0.6);
+}

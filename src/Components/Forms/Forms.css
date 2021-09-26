@@ -1,0 +1,203 @@
+h2 {
+    font-size: 32px;
+    font-family: 'lato' ;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 43.2px;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'lato' ;
+}
+
+.MuiAvatar-root {
+  width: 80px !important;
+  height: 80px !important;
+  border: 3px #e7e7e7 dotted;
+  
+  
+}
+.main-head {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.headContainer {
+    text-align: center;
+   
+}
+
+.lable {
+    margin: "0.5rem 0 !important";
+    color : rgba(10, 9, 9, 0.6);
+}
+
+
+.MuiOutlinedInput-input {
+    padding: 12.5px 14px !important;
+}
+
+.gender{
+    font-family: Arial;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+  }
+  .gender label{
+    position: relative;
+    margin: 14px 15px 4px 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .gender input{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .gender label span{
+    display: block;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    background: #fff;
+    border: 1px solid #ECECEC;
+    color: #000;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    min-width: 70px;
+    transition: 350ms;
+  }
+  .gender label:hover span, .gender label:hover span:before{
+    color: #000;
+  }
+
+  .gender input:checked ~ span{
+    color: #ED5901;
+    background: rgba(237, 89, 1, 0.1);
+    
+  }
+
+
+ .btnMove {
+      text-align: center;
+      background-color: #ED5901 !important;
+      color: white !important;
+      width: 100% !important;
+      margin: -10px auto !important;
+  }
+
+  .logs {
+      color: #ED5901 !important;
+      display: inline-block;
+  }
+
+  .texts {
+      color: rgba(10, 9, 9, 0.6);
+      text-align: center;
+      display: block;
+  }
+
+  .form-back {
+    position: relative;
+    margin: 0px auto 10px auto;
+    width: 448px;
+    height: auto;
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 3px;
+    background: #fff;
+  }
+
+  .intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel] {
+    height: 3rem;
+    width: 28rem;
+    margin-top: 5px;
+    border: 5px;
+    border: 2px solid rgba(206, 203, 203, 0.6);
+  }
+
+  .btn {
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 2.5rem;
+    background: #ED5901;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.btnOTP {
+  margin-top: 1.5rem;
+  float: right;
+  width: 70%;
+  height: 2.5rem;
+  background: #ED5901;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+} 
+
+.btndisabled {
+  margin-top: 2.5rem;
+    width: 100%;
+    height: 2.5rem;
+    background: #f59f6e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.btnOTPdisabled {
+  margin-top: 1.5rem;
+  float: right;
+  width: 70%;
+  height: 2.5rem;
+  background: #f59f6e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.btnback {
+  margin-top: 1.5rem;
+  width: 25%;
+  color: #000;
+  background-color: #F4F6F7;
+  border: none;
+  border-radius: 5px;
+}
+
+ .verifyotp {
+  padding-top:3px;
+  margin: 15px auto !important;
+  height: 90px;
+  width: 510px;
+  color: rgba(10, 9, 9, 0.6);
+  background-color: white;
+  font-family: 'Lato';
+  font-weight: 600;
+  font-style: normal;
+  line-height: 26px !important;
+  text-align: center;
+  letter-spacing: 1px ;
+}
+
+
+.MuiStep-completed {
+    color: white;
+}

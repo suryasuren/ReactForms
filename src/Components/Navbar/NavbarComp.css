@@ -1,0 +1,27 @@
+.NavbarItem {
+    background: #2E4B64;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+.nav-menu {
+    display: flex;
+}
+.nav-link {
+    display: inline-flex;
+    margin: 40%;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: px;
+}
